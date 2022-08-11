@@ -10,21 +10,14 @@
 }
 
 
-.input-group-text{
-    background-color: lightgray
-}
+
 .span {
     display: flex;
     align-items: center;
     margin-right: 30px;
     gap: 15px;
     padding: 20px;
-    text-align: right;
-
-
-
-
-}
+    text-align: right;}
 
 .Logo {
     width: 100 px;
@@ -90,3 +83,4 @@ select {
     align-items: center;
     margin-left: 200px;
 }
+

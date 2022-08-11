@@ -13,32 +13,31 @@
 <body>
 
     <div class="container">
-    
-
-
         <div class="header">
             <div class="Logo"><img src="assets/L-2.png" alt=""></div>
-            
-            <div class="title"> Dövlət İmtahan Mərkəzi <br> 
-                Şəxsi Kabinet</div> 
 
-            <div class="span" style="color:blue"> Istifadeci sayi:832004 </div>
-          <div class="span" style="color: blue" > Daxil olma sayi: 1015733</div>
+            <div class="title"> Dövlət İmtahan Mərkəzi <br>
+                Şəxsi Kabinet</div>
 
-          <div class="input-group">
-            <span class="input-group-text">First and last name</span>
-            <input type="text" aria-label="First name" class="form-control" placeholder="Elcin">
-            <input type="text" aria-label="Last name" class="form-control" placeholder="Ramazanov">
-          </div>         
+            <div class="span" style="color:blue"> Istifadeci sayi: 832004 </div>
+            <div class="span" style="color: blue"> Daxil olma sayi: 1015733</div>
+
+            <form action="">
+                <label for="fname">Adınız</label>
+                <input type="" id="fname" value="Elcin">
+                <input type="text" id="" value="Ramazanov">
+                <label for="">Soyadınız</label>
+                <input type="button" value="Daxil ol">
+            </form>
         </div>
         <hr>
-        
-<form >
-<a href="http://epayment.dim.gov.az/"><input type="submit" value="Melumat"></a>
-<a href="https://ekabinet.dim.gov.az//"><input type="submit" value="Qeydiyyat"></a>
-<a href=""><input type="submit" value="  Giriş"></a> 
-    </form>
-        
+
+        <form>
+            <a href="http://epayment.dim.gov.az/"><input type="submit" value="Melumat"></a>
+            <a href="https://ekabinet.dim.gov.az//"><input type="submit" value="Qeydiyyat"></a>
+            <a href=""><input type="submit" value="  Giriş"></a>
+        </form>
+
         <article>
             Şəxsi kabinet yaratmaq üçün istifadəçi şəxsiyyətini təsdiq edən sənədin seriyasını siyahıdan seçir (yeni
             nəsil şəxsiyyət vəsiqəsi olan vətəndaşlar üçün sənədin seriyası bölməsində '-' seçilməlidir),
@@ -62,12 +61,77 @@
 
 
         <form>
-            <input type="text" name="" id="" placeholder="Seriya nomresi" >
+            <input type="text" name="" id="" placeholder="Seriya nomresi">
             <input type="text" size="" maxlength="" placeholder="Fin kodu">
             <input type="submit" value="Şəxsi kabinet yarat">
         </form>
     </div>
 
+    <br>
+    <hr>
+    <form action="">
+        <select name="" id=>
+            <option value="">994</option>
+        </select>
+        <select name="" id="">
+            <option value="">55</option>
+            <option value="">50</option>
+            <option value="">70</option>
+        </select>
+        <label for="">Telefon nömrəsi</label>
+        <input type="text" id="Telefon nomresi" value="" maxlength="13" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}-[0-9]{4}">
+        <input type="password" id="şifrə">
+        <label for="">Şifrə</label>
+        <span> Şifrəni unutmusunuz?
+            <input type="button" value="Daxil ol">
+        </span>
+    </form>
+
+    <hr>
+
+    <form action="">
+        <span> Hansı dilleri bilirsiz
+            <input type="radio" name="Language" id="İngilis dili">
+            <label for="">İngilis dili</label> <input type="radio" name="Language" id="Rus dili">
+            <label for="">Rus dili</label>
+            <input type="radio" name="Language" id="Fransız dili">
+            <label for="">Fransız dili</label>
+        </span>
+    </form>
+
+    <hr>
+
+    <form action="">
+        <span>
+            Hansı proqramlasdirma dillerini bilirsiz?
+            <input type="checkbox" name="" id="HTML">
+            <label for="">HTML</label>
+            <input type="checkbox" name="" id="Css">
+            <label for="">Css</label>
+            <input type="checkbox" name="" id="React">
+        </span>
+    </form>
+
+    <hr>
+
+    <form action="">
+        <span>Doğum tarixi</span>
+        <input type="date" name="birthday" id="birthday">
+        <label for="">Birthday</label>
+        <input type="submit" value="submit">
+    </form>
+
+    <hr>
+
+
+    <form action="">
+        <span> CV göndər
+            <input type="file" name="" id="Select a file">
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+            <input type="range" name="" id="">
+        </span>
+    </form>
 </body>
 
 </html>
